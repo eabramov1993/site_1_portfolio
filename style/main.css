@@ -1,11 +1,36 @@
 html {
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 
 *,
 *::before,
 *::after {
     box-sizing: inherit;
+}
+
+/* Убираем внешние отступы */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+    margin: 0;
+}
+
+/* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/
+ul[class],
+ol[class] {
+    list-style: none;
 }
 
 /* ШРИФТЫ 
@@ -20,6 +45,7 @@ html {
     padding: 0 250px;
 }
 
+/* ШАПКА САЙТА */
 .header {
     background-image: url(/image/bg.png);
     background-repeat: no-repeat;
@@ -29,7 +55,7 @@ html {
 
 }
 
-.header-logo {
+.header-logo img {
     padding-top: 41px;
     margin-bottom: 317px;
 }
@@ -39,9 +65,7 @@ html {
     margin-bottom: 15px;
     font-family: 'Bebas Neue', sans-serif;
     font-size: 60px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
     letter-spacing: 5.709px;
 }
 
@@ -62,3 +86,135 @@ html {
     letter-spacing: 3.7px;
     padding-bottom: 71px;
 }
+
+/* НАВИГАЦИЯ */
+
+.nav-navbar {
+    height: 65px;
+    border: 1px solid #E6E6E6;
+    margin-bottom: 57px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 65px;
+}
+
+
+.navbar-item ul {
+    display: flex;
+    list-style: none;
+    text-transform: uppercase;
+
+}
+
+.navbar-item li {
+    margin-right: 35px;
+    text-decoration: none;
+
+}
+
+.navbar-item li:last-child {
+    margin-right: 0;
+}
+
+.navbar-item a {
+    text-decoration: none;
+    color: rgba(72, 85, 91, 1);
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1.091px;
+    font-family: 'Open Sans', sans-serif;
+    transition: color 0.2s;
+}
+
+.navbar-item a:hover {
+    color: rgba(0, 164, 229, 1);
+}
+
+/* О НАС */
+
+.about {
+    padding-bottom: 50px;
+}
+
+.about-tittle {
+    color: #48555B;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 2.306px;
+    margin-bottom: 10px;
+}
+
+.about-line {
+    width: 50px;
+    height: 2px;
+    background-color: #00A4E5;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+
+.about-item-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-item-flex-left-tittle {
+    max-width: 405px;
+    width: 100%;
+    color: #48555B;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.17px;
+    padding-bottom: 30px;
+}
+.about-item-flex-left-tittle span{
+    color: #16ACE8;
+}
+
+.about-item-flex-left-suptittle {
+    max-width: 405px;
+    width: 100%;
+    color: #48555B;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.188px;
+}
+
+.about-item-flex-right {
+    display: flex;
+    align-items: flex-end;
+}
+
+.about-item-img {
+    margin-right: 20px;
+    width: 145px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 29px;
+    letter-spacing: 0.188px;
+    padding: 15px;
+    text-transform: uppercase;
+}
+
+.we-plan {
+    background-image: url(/image/we\ plan.png);
+
+}
+
+.we-manage {
+    background-image: url(/image/we\ manage.png);
+}
+
+.we-build {
+    background-image: url(/image/We\ build.png);
+    margin-right: 0;
+}
+
