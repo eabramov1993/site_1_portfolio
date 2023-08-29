@@ -137,7 +137,7 @@ ol[class] {
 /* О НАС */
 
 .about {
-    padding-bottom: 50px;
+    margin-bottom: 118px;
 }
 
 .about-tittle {
@@ -170,7 +170,8 @@ ol[class] {
     letter-spacing: 0.17px;
     padding-bottom: 30px;
 }
-.about-item-flex-left-tittle span{
+
+.about-item-flex-left-tittle span {
     color: #16ACE8;
 }
 
@@ -218,3 +219,126 @@ ol[class] {
     margin-right: 0;
 }
 
+
+/* НАШИ УСЛУГИ */
+
+.service {
+    margin-bottom: 115px;
+}
+
+.service-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.service-title-h3 {
+    color: #48555B;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 2.306px;
+}
+
+.service-title-text {
+    width: 405px;
+    color: #48555B;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.2px;
+}
+
+.service-title-button {
+    padding: 11px 29px;
+    color: #FFF;
+    text-align: center;
+    font-size: 13px;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    background-color: #00A4E5;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+.line-service {
+    margin: 0;
+    margin-bottom: 78px;
+}
+
+.service-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.service-content-item {
+    padding: 39px 22px;
+    border: 1px solid #E6E6E6;
+    max-width: 295px;
+    width: 100%;
+   }
+
+.service-content-img {
+    padding-bottom: 25px;
+
+}
+
+.service-content-h3 {
+    padding-bottom: 13px;
+    color: #48555B;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.427px;
+}
+
+.service-content-suptitle {
+    color: #48555B;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.188px;
+}
+
+
+.feedback {
+    background-image: url(/image/bg-feedback.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.feedback-tittle {
+    padding-top: 120px;
+    max-width: 350px;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 35px;
+    margin: 0 auto;
+    color: #48555B;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.15px;
+}
+
+.feedback-button {
+    margin: 0 auto;
+    padding: 11px 26px;
+    background-color: #00A4E5;
+    max-width: 150px;
+    width: 100%;
+    height: 40px;
+    color: #FFF;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    border-radius: 7px;
+
+}
+
+.feedback-content {
+    padding-bottom: 220px;
+}
