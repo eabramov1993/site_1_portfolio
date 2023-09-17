@@ -96,6 +96,9 @@ ol[class] {
 }
 
 .navbar {
+    position: sticky;
+    top: 30px;
+    left: 30px;
     display: flex;
     align-items: center;
     justify-content: space-between;
